@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+  background: #b0abab;
+}
+header h2 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #013185;
+}
+header p {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #013185;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border: thick, dotted, #ff0000;
+}
