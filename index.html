@@ -2,46 +2,53 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/master.css">
   <link rel="stylesheet" href="css/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <title>Tiago - Web Dev</title>
+  <title>Hi, i'm Tiago</title>
 
 </head>
 <body>
-  <div id = "Head">
+  <div class="container-fluid" id = "Head">
+    <div class="row">
     <header>
-      <h2 id = "mainName">Tiago Felix Prudente</h2>
-      <img id = "minhaFoto" src="image/EU.jpg" alt="My photo">
-      <ul>
-        <li><a id = "linkedin" href = 'https://www.linkedin.com/in/tiago-prudente-9b87247b/' target="_blank"><i class = 'fa fa-linkedin'></i></a></li>
-        <li><a id = "twitter" href = 'https://twitter.com/tfprudente' target="_blank"><i class = 'fa fa-twitter'></i></a></li>
-        <li><a id = "github"href = 'https://github.com/Kakouz' target="_blank"><i class = 'fa fa-github'></i></a></li>
-      </ul>
-      <p id = "subtitulo">Desenvolvedor apaixonado pela web!.</p>
+      <div class="col-xs-8 col-xs-push-2">
+        <h1  id = "mainName">Tiago Felix Prudente</h1>
+        <p  id = "subtitulo">Desenvolvedor apaixonado pela web!</p>
+      </div>
+      <img class = "col-xs-4" id = "minhaFoto" src="image/EU.jpg" alt="My photo">
+    </div>
     </header>
   </div>
-
   <div id = "Content">
     <p>Olá, meu nome é Tiago!</p>
     <p>Conheço HTML5, CSS3, Bootstrap, Javascript (JQuery básico), PHP (Orientado a Objetos também) e  MySQL.<br />E alem disso sou faminto, tudo que for necessário aprenderei para executar o serviço!</p>
     <p>Estou sempre atrás de novos desafios e procuro sempre dar o meu melhor para fazer qualquer tipo de coisa. <br />Confira alguns exemplos no meu GitHub</p>
-    <div id = "projetos">
-      <img src="image/glass.jpg" alt="Google Glass fã site" width="300" height="300">
-      <p id = "pgp"><span id = "bold">Fan site do Google Glass</span><br />Primeiro 'grande' projeto, levou se <br />mais ou menos 1 semana para ser concluido.</p>
     </div>
+    <div class = "container-fluid" id = "projetos">
+      <div id = "row">
+        <img id="google-glass"class = "col-xs-6 col-xs-push-3" src="image/glass.jpg" alt="Google Glass fã site">
+        <p  "col-xs-6" id = "pgp"><span id = "bold"><a id ="gg" href="https://github.com/Kakouz/html5-css-js-project">Fan site do Google Glass</a></span><br />Primeiro 'grande' projeto, levou se <br />mais ou menos 1 semana para ser concluido.</p>
+        </div>
   </div>
 
-  <div id = "footer">
+  <div id = "footer" class="container-fluid">
     <footer>
-      <h4>Design by Tiago Prudente</h4>
-      <h5>Sempre tentando melhorar</h5>
-      <ul id = "footLink">
-        <li><a href = 'https://www.linkedin.com/in/tiago-prudente-9b87247b/' target="_blank"><i class = 'fa fa-linkedin'></i></a></li>
-        <li><a href = 'https://twitter.com/tfprudente' target="_blank"><i class = 'fa fa-twitter'></i></a></li>
-        <li><a href = 'https://github.com/Kakouz' target="_blank"><i class = 'fa fa-github'></i></a></li>
-      </ul>
-    </footer>
+      <div class="row col-xs-12">
+        <h4>Design by Tiago Prudente</h4>
+        <h5>Sempre tentando melhorar</h5>
+      </div>
+        <div class="row col-xs-12">
+          <ul>
+              <li><a href = 'https://www.linkedin.com/in/tiago-prudente-9b87247b/' target="_blank"><i class = 'fa fa-linkedin'></i></a></li>
+              <li><a href = 'https://twitter.com/tfprudente' target="_blank"><i class = 'fa fa-twitter'></i></a></li>
+              <li><a href = 'https://github.com/Kakouz' target="_blank"><i class = 'fa fa-github'></i></a></li>
+          </ul>
+        </div>
+      </footer>
   </div>
 </body>
 </html>
