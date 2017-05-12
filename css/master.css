@@ -75,8 +75,8 @@ div#back2 {
 }
 
 .projeto {
-  height: 400px;
-  width: 400px;
+  height: 400px !important;
+  width: 400px !important;
   text-align: center;
   margin: 20px;
 }
