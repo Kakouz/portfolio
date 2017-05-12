@@ -1,105 +1,86 @@
 @charset "UTF-8";
-
-p {
-  color: white;
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* DEFAULT PAGE CONFIG, COLOR, FONTS AND LINKS*/
+div#pageDefaults {
+  background: white;
 }
-a#gg {
+
+.texto {
+  color: white;
+  font-family: 'Quicksand', monospace;
+  text-align: center;
+}
+
+a {
   color: #a1a1a1;
   text-decoration: none;
 }
-div#Head {
-    background: #4681e8;
-    padding: 45px;
-    border-color: #ffffff;
-    border-style: solid;
+/* HEADER: NAME + LINKS */
+header {
+  font-family: 'Quicksand';
+  font-size: 30px;
+  background: black;
+  padding: 1%;
 }
-header h1#mainName {
+/* HEAD CONTENT */
+ div#headContent {
+   padding-top: 300px;
+   background-image: url("../image/back1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 710px;
+ }
+ .headText {
+   color: white;
+   background-color: black;
+   padding: 10px;
+   border-radius: 4%;
+   opacity: .7;
+   width: 30%;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: 'Quicksand', monospace;
+   text-align: center;
+ }
+  h1 {
   font-size: 40px;
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
-header p#subtitulo {
+  p {
   font-size: 18px;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  color: white;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-}
-header img#minhaFoto {
-  border-radius: 25%;
-  height: 200px;
-  width: 200px;
-}
-ul {
-  list-style-type: none;
-  position: relative;
-  display: inline;
-}
-ul li {
-  display: inline;
-  position: relative;
-  color: white;
-  border-radius: 20%;
-  padding: 10px;
-  background: rgb(15, 70, 135);
-  text-decoration: none;
 }
 
-div#Content {
-  padding: 15px;
-  border-color: white;
-  border-style: solid;
-  background: #4681e8;
+/* ABOUT ME - AFTER THE HEAD PAGE AND BEFORE THE PROJECT PART */
+div#back2 {
+  height: 50%;
+  padding: 10%;
+  background: url("../image/back2.jpg");
+  background-size: cover;
+}
+.aboutMeP {
+  color: white;
+  background-color: black;
+  border-radius: 4%;
+  opacity: .7;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Quicksand', monospace;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
 }
-div#Content p {
-  font-size: 14px;
-}
-span#bold {
-  font-weight: bolder;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-}
-div#projetos {
-  padding: 15px;
-  border-color: white;
-  border-style: solid;
-  background: #4681e8;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-}
+
 img#google-glass {
-  width: 300px;
-  height: 300px;
+  margin:auto;
+  display: block;
+  width: 30%;
+  height: 30%;
 }
 
 div#footer {
-  width: 100%;
-  overflow: hidden;
-  padding: 15px;
-  background: #4681e8;
-  text-align: center;
-  color: white;
-  font-family: 'Roboto Mono', monospace;
-  border-color: #ffffff;
-  border-style: solid;
+  padding: 10px;
+  margin-top: 10%;
+  margin-bottom: auto;
+  padding-bottom: auto;
 }
 footer h4 {
-  font-size: 14px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-  margin-bottom: 0px;
-  text-align: center;
-}
-footer h5 {
-  font-size: 11px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-  margin-top: 0px;
-  text-align: center;
-}
-ul#footLink {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  font-size: 12px;
 }
