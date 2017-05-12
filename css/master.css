@@ -67,7 +67,7 @@ div#back2 {
   background-color: black;
   border-radius: 4%;
   opacity: .7;
-  width: 30%;
+  width: 20%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Quicksand', monospace;
@@ -83,8 +83,8 @@ div#back2 {
 
 div#footer {
   padding: 10px;
-  margin-top: 5%;
-  padding-bottom: -400px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 footer h4 {
   font-size: 12px;
