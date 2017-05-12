@@ -58,11 +58,10 @@ div#back2 {
 }
 
 .minhaFoto {
-  height: 25%;
-  width: 22%;
+  height: 30%;
+  width: 30%;
   border-radius: 50%;
 }
-
 .aboutMeP {
   color: white;
   background-color: black;
@@ -75,11 +74,11 @@ div#back2 {
   text-align: center;
 }
 
-img#google-glass {
-  margin:auto;
-  display: block;
-  width: 30%;
-  height: 30%;
+.projeto {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  margin: 20px;
 }
 
 div#footer {
