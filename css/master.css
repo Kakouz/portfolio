@@ -49,13 +49,20 @@ header {
   font-size: 18px;
 }
 
-/* ABOUT ME - AFTER THE HEAD PAGE AND BEFORE THE PROJECT PART */
+/* ABOUT ME - AFTER THE HEAD PART */
 div#back2 {
   height: 50%;
-  padding: 10%;
+  padding-top: 10%;
   background: url("../image/back2.jpg");
   background-size: cover;
 }
+
+.minhaFoto {
+  height: 25%;
+  width: 22%;
+  border-radius: 50%;
+}
+
 .aboutMeP {
   color: white;
   background-color: black;
@@ -77,9 +84,8 @@ img#google-glass {
 
 div#footer {
   padding: 10px;
-  margin-top: 10%;
-  margin-bottom: auto;
-  padding-bottom: auto;
+  margin-top: 5%;
+  padding-bottom: -400px;
 }
 footer h4 {
   font-size: 12px;
