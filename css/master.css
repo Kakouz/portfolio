@@ -21,19 +21,19 @@ header {
 }
 /* HEAD CONTENT */
  div#headContent {
-   padding-top: 300px;
+   padding: 200px;
    background-image: url("../image/back1.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   height: 710px;
+   height: 40%;
  }
  .headText {
    color: white;
    background-color: black;
    padding: 10px;
    border-radius: 4%;
-   opacity: .7;
-   width: 30%;
+   opacity: .8;
+   width: 50%;
    margin-right: auto;
    margin-left: auto;
    font-family: 'Quicksand', monospace;
@@ -48,7 +48,7 @@ header {
 
 /* ABOUT ME - AFTER THE HEAD PART */
 div#back2 {
-  height: 50%;
+  height: 1200px;
   padding-top: 10%;
   background: url("../image/back2.jpg");
   background-size: cover;
@@ -64,19 +64,16 @@ div#back2 {
   background-color: black;
   border-radius: 4%;
   opacity: .7;
-  width: 20%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Quicksand', monospace;
   text-align: center;
 }
 
-img#google-glass {
-  padding-top: 25px;
-  height: 30%;
-  width: 30%;
-  margin: 0 auto;
-  display: block;
+.normal {
+  padding-top: 20px;
+
 }
 div#footer {
   padding: 10px;
