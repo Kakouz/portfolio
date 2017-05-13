@@ -6,6 +6,7 @@
   color: white;
   font-family: 'Quicksand', monospace;
   text-align: center;
+  width: 50%;
 }
 
 a {
@@ -70,9 +71,11 @@ height: 370px;
   background-color: black;
   border-radius: 4%;
   opacity: .7;
-  width: 53%;
   margin-right: auto;
   margin-left: auto;
+}
+.projetoP {
+    width: 73%;
 }
 
 .normal {
